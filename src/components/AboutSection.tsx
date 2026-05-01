@@ -23,10 +23,10 @@ export default function AboutSection() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl font-black tracking-tight text-foreground sm:text-4xl">
-              Sobre <span className="text-primary glow-neon-text">Loto Gaming Tech</span>
+              Sobre <span className="text-primary glow-neon-text">Loto Tech</span>
             </h2>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              Somos un emprendimiento dedicado al cuidado de tus equipos y consolas. En Loto Gaming Tech
+              Somos un emprendimiento dedicado al cuidado de tus equipos y consolas. En Loto Tech
               creemos que cada dispositivo merece un servicio de calidad sin importar su tamaño.
               Nos enfocamos en la confianza, la transparencia y en dar lo mejor para que tus equipos
               rindan al máximo.

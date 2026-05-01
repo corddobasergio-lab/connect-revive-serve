@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <a href="#inicio" className="flex items-center gap-2 font-display text-lg font-bold text-primary glow-neon-text">
           <Gamepad2 className="h-5 w-5" />
-          Loto Gaming Tech
+          Loto Tech
         </a>
 
         {/* Desktop */}

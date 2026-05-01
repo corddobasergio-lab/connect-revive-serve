@@ -28,13 +28,12 @@ export default function HeroSection() {
 
           <h1 className="text-4xl font-black leading-tight tracking-tight text-foreground sm:text-5xl md:text-7xl">
             <span className="text-primary glow-neon-text">Loto</span>{" "}
-            <span className="text-accent">Gaming</span> Tech
+            <span className="text-accent">Tech</span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-base text-muted-foreground sm:text-lg">
             Reparación y mantenimiento de computadores, laptops y consolas de videojuegos.
-            Servicio confiable con{" "}
-            <span className="font-semibold text-foreground">Sergio Córdoba</span>.
+            Servicio confiable.
             ¡Llevamos tu setup al siguiente nivel! 🚀
           </p>
 
