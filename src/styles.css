@@ -111,23 +111,23 @@
 
 @layer utilities {
   .glow-neon {
-    box-shadow: 0 0 15px oklch(0.72 0.19 195 / 40%), 0 0 40px oklch(0.72 0.19 195 / 15%);
+    box-shadow: 0 0 15px oklch(0.70 0.22 330 / 40%), 0 0 40px oklch(0.70 0.22 330 / 15%);
   }
 
   .glow-neon-text {
-    text-shadow: 0 0 10px oklch(0.72 0.19 195 / 60%), 0 0 30px oklch(0.72 0.19 195 / 25%);
+    text-shadow: 0 0 10px oklch(0.70 0.22 330 / 60%), 0 0 30px oklch(0.70 0.22 330 / 25%);
   }
 
   .glass {
-    background: oklch(0.17 0.02 260 / 60%);
+    background: oklch(0.15 0.03 280 / 60%);
     backdrop-filter: blur(12px);
-    border: 1px solid oklch(0.72 0.19 195 / 15%);
+    border: 1px solid oklch(0.70 0.22 330 / 15%);
   }
 
   .gradient-mesh {
     background: 
-      radial-gradient(ellipse at 20% 50%, oklch(0.72 0.19 195 / 8%) 0%, transparent 50%),
-      radial-gradient(ellipse at 80% 20%, oklch(0.65 0.25 160 / 6%) 0%, transparent 50%),
+      radial-gradient(ellipse at 20% 50%, oklch(0.70 0.22 330 / 8%) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 20%, oklch(0.72 0.19 195 / 6%) 0%, transparent 50%),
       radial-gradient(ellipse at 50% 80%, oklch(0.60 0.20 280 / 5%) 0%, transparent 50%);
   }
 }
