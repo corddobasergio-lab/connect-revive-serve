@@ -9,11 +9,11 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "TechSergio | Mantenimiento de Equipos y Consolas" },
+      { title: "Loto Gaming Tech | Mantenimiento de Equipos y Consolas" },
       {
         name: "description",
         content:
-          "Servicio técnico profesional de Sergio Córdoba. Mantenimiento preventivo y correctivo de computadores, laptops y consolas de videojuegos. Tel: 301 799 8302",
+          "Loto Gaming Tech — Servicio técnico profesional de Sergio Córdoba. Mantenimiento preventivo y correctivo de computadores, laptops y consolas de videojuegos. Tel: 301 799 8302",
       },
     ],
   }),
