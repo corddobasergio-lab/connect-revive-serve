@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Monitor, Phone } from "lucide-react";
+import { Menu, X, Gamepad2, Phone } from "lucide-react";
 
 const navLinks = [
   { label: "Inicio", href: "#inicio" },
@@ -16,8 +16,8 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 glass">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <a href="#inicio" className="flex items-center gap-2 font-display text-lg font-bold text-primary glow-neon-text">
-          <Monitor className="h-5 w-5" />
-          TechSergio
+          <Gamepad2 className="h-5 w-5" />
+          Loto Gaming Tech
         </a>
 
         {/* Desktop */}
