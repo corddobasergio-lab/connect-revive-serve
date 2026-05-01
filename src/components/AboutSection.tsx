@@ -2,10 +2,12 @@ import { motion } from "framer-motion";
 import { CheckCircle, Clock, MapPin, Phone } from "lucide-react";
 
 const highlights = [
-  "Más de 5 años de experiencia",
+  "Atención personalizada y honesta",
   "Servicio a domicilio disponible",
   "Diagnóstico sin costo",
   "Garantía en todas las reparaciones",
+  "Precios accesibles y transparentes",
+  "Repuestos de calidad garantizada",
 ];
 
 export default function AboutSection() {
@@ -21,12 +23,13 @@ export default function AboutSection() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl font-black tracking-tight text-foreground sm:text-4xl">
-              Sobre <span className="text-primary glow-neon-text">Sergio Córdoba</span>
+              Sobre <span className="text-primary glow-neon-text">Loto Gaming Tech</span>
             </h2>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              Técnico especializado en mantenimiento y reparación de equipos de cómputo y consolas de videojuegos.
-              Mi compromiso es brindar un servicio honesto, rápido y de calidad, asegurando que tus dispositivos
-              funcionen al máximo rendimiento.
+              Somos un emprendimiento dedicado al cuidado de tus equipos y consolas. En Loto Gaming Tech
+              creemos que cada dispositivo merece un servicio de calidad sin importar su tamaño.
+              Nos enfocamos en la confianza, la transparencia y en dar lo mejor para que tus equipos
+              rindan al máximo.
             </p>
 
             <ul className="mt-6 space-y-3">

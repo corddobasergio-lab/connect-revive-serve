@@ -23,19 +23,19 @@ export default function HeroSection() {
         >
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-xs font-medium text-primary">
             <Wrench className="h-3.5 w-3.5" />
-            Servicio técnico profesional
+            🎮 Servicio técnico gamer & profesional
           </div>
 
           <h1 className="text-4xl font-black leading-tight tracking-tight text-foreground sm:text-5xl md:text-7xl">
-            Mantenimiento de{" "}
-            <span className="text-primary glow-neon-text">Equipos</span> &{" "}
-            <span className="text-accent">Consolas</span>
+            <span className="text-primary glow-neon-text">Loto</span>{" "}
+            <span className="text-accent">Gaming</span> Tech
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-base text-muted-foreground sm:text-lg">
-            Reparación y mantenimiento preventivo y correctivo de computadores, laptops y consolas de videojuegos.
+            Reparación y mantenimiento de computadores, laptops y consolas de videojuegos.
             Servicio confiable con{" "}
             <span className="font-semibold text-foreground">Sergio Córdoba</span>.
+            ¡Llevamos tu setup al siguiente nivel! 🚀
           </p>
 
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
