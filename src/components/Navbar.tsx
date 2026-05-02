@@ -38,7 +38,7 @@ export default function Navbar() {
 
         <div className="hidden items-center gap-3 md:flex">
           <a
-            href="https://wa.me/573203366580?text=Hola%20Sergio%2C%20quiero%20donar%20componentes%20electr%C3%B3nicos.%20%C2%BFC%C3%B3mo%20puedo%20hacerlo%3F"
+            href="https://wa.me/573017998302?text=Hola%20Sergio%2C%20quiero%20donar%20componentes%20electr%C3%B3nicos.%20%C2%BFC%C3%B3mo%20puedo%20hacerlo%3F"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-lg border border-accent/40 bg-accent/10 px-4 py-2 text-sm font-semibold text-accent transition hover:bg-accent/20 hover:brightness-110"
@@ -46,7 +46,7 @@ export default function Navbar() {
             <Recycle className="h-4 w-4" /> Donar
           </a>
           <a
-            href="https://wa.me/573203366580"
+            href="https://wa.me/573017998302"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground transition glow-neon hover:brightness-110"
@@ -88,7 +88,7 @@ export default function Navbar() {
               ))}
               <li>
                 <a
-                  href="https://wa.me/573203366580?text=Hola%20Sergio%2C%20quiero%20donar%20componentes%20electr%C3%B3nicos.%20%C2%BFC%C3%B3mo%20puedo%20hacerlo%3F"
+                  href="https://wa.me/573017998302?text=Hola%20Sergio%2C%20quiero%20donar%20componentes%20electr%C3%B3nicos.%20%C2%BFC%C3%B3mo%20puedo%20hacerlo%3F"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-2 flex items-center justify-center gap-2 rounded-lg border border-accent/40 bg-accent/10 px-4 py-2 text-sm font-semibold text-accent"
@@ -98,7 +98,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="https://wa.me/573203366580"
+                  href="https://wa.me/573017998302"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-2 flex items-center justify-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground glow-neon"

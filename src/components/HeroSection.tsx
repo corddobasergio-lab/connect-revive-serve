@@ -39,7 +39,7 @@ export default function HeroSection() {
 
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
-              href="https://wa.me/573203366580?text=Hola%20Sergio,%20necesito%20un%20servicio%20técnico"
+              href="https://wa.me/573017998302?text=Hola%20Sergio,%20necesito%20un%20servicio%20técnico"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-xl bg-primary px-8 py-3.5 font-display text-sm font-bold text-primary-foreground transition glow-neon hover:scale-105 hover:brightness-110"
