@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import ServicesSection from "@/components/ServicesSection";
 import AboutSection from "@/components/AboutSection";
+import DonationSection from "@/components/DonationSection";
 import FooterSection from "@/components/FooterSection";
 
 export const Route = createFileRoute("/")({
@@ -13,7 +14,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Loto Tech — Servicio técnico profesional. Mantenimiento preventivo y correctivo de computadores, laptops y consolas de videojuegos. Tel: 301 799 8302",
+          "Loto Tech — Servicio técnico profesional. Mantenimiento preventivo y correctivo de computadores, laptops y consolas de videojuegos. Tel: 320 336 6580",
       },
     ],
   }),
@@ -26,6 +27,7 @@ function Index() {
       <HeroSection />
       <ServicesSection />
       <AboutSection />
+      <DonationSection />
       <FooterSection />
     </div>
   );
