@@ -124,7 +124,7 @@ export default function DonationSection() {
             ¿Quieres donar componentes? Escríbenos y coordinaremos la recogida. ¡Cada pieza cuenta! ♻️
           </p>
           <a
-            href="https://wa.me/573203366580?text=Hola%20Sergio%2C%20quiero%20donar%20componentes%20electr%C3%B3nicos.%20%C2%BFC%C3%B3mo%20puedo%20hacerlo%3F"
+            href="https://wa.me/573017998302?text=Hola%20Sergio%2C%20quiero%20donar%20componentes%20electr%C3%B3nicos.%20%C2%BFC%C3%B3mo%20puedo%20hacerlo%3F"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-xl bg-accent px-8 py-3.5 font-display text-sm font-bold text-accent-foreground transition glow-neon hover:scale-105 hover:brightness-110"

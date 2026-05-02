@@ -13,8 +13,8 @@ export default function FooterSection() {
         </p>
         <p className="mt-1 text-sm text-muted-foreground">
           Tel:{" "}
-          <a href="tel:+573203366580" className="text-primary hover:underline">
-            320 336 6580
+          <a href="tel:+573017998302" className="text-primary hover:underline">
+            301 799 8302
           </a>
         </p>
         <p className="mt-4 text-xs text-muted-foreground/60">
