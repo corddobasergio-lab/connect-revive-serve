@@ -5,7 +5,7 @@ import { Menu, X, Gamepad2, Phone } from "lucide-react";
 const navLinks = [
   { label: "Inicio", href: "#inicio" },
   { label: "Servicios", href: "#servicios" },
-  { label: "Nosotros", href: "#sobre-mi" },
+  { label: "Nosotros", href: "#nosotros" },
   { label: "Contacto", href: "#contacto" },
 ];
 

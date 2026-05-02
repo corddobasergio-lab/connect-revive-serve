@@ -12,7 +12,7 @@ const highlights = [
 
 export default function AboutSection() {
   return (
-    <section id="sobre-mi" className="py-24">
+    <section id="nosotros" className="py-24">
       <div className="mx-auto max-w-6xl px-4">
         <div className="grid items-center gap-12 lg:grid-cols-2">
           {/* Info */}
