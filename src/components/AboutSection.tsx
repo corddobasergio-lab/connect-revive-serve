@@ -12,7 +12,7 @@ const highlights = [
 
 export default function AboutSection() {
   return (
-    <section id="sobre-mi" className="py-24">
+    <section id="nosotros" className="py-24">
       <div className="mx-auto max-w-6xl px-4">
         <div className="grid items-center gap-12 lg:grid-cols-2">
           {/* Info */}
@@ -23,7 +23,7 @@ export default function AboutSection() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl font-black tracking-tight text-foreground sm:text-4xl">
-              Sobre <span className="text-primary glow-neon-text">Loto Tech</span>
+              Nosotros
             </h2>
             <p className="mt-4 text-muted-foreground leading-relaxed">
               Somos un emprendimiento dedicado al cuidado de tus equipos y consolas. En Loto Tech
