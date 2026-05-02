@@ -4,8 +4,8 @@ export default function FooterSection() {
   return (
     <footer id="contacto" className="border-t border-border py-10">
       <div className="mx-auto max-w-6xl px-4 text-center">
-        <a href="#inicio" className="inline-flex items-center gap-2 font-display text-lg font-bold text-primary glow-neon-text">
-          <img src={logo} alt="Loto Tech logo" className="h-8 w-8" />
+        <a href="#inicio" className="inline-flex items-center gap-3 font-display text-xl font-black text-primary glow-neon-text">
+          <img src={logo} alt="Loto Tech logo" className="h-12 w-12 drop-shadow-[0_0_15px_oklch(0.70_0.22_330_/_60%)]" />
           Loto Tech
         </a>
         <p className="mt-3 text-sm text-muted-foreground">
