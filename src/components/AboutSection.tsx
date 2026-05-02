@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { CheckCircle, Clock, MapPin, Phone } from "lucide-react";
+import { CheckCircle, Clock, MapPin, Phone, User } from "lucide-react";
 
 const highlights = [
   "Atención personalizada y honesta",
@@ -55,12 +55,22 @@ export default function AboutSection() {
             <div className="mt-6 space-y-5">
               <div className="flex items-start gap-4">
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary">
+                  <User className="h-5 w-5" />
+                </div>
+                <div>
+                  <p className="text-sm text-muted-foreground">Técnico</p>
+                  <p className="font-semibold text-foreground">Sergio Córdoba</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary">
                   <Phone className="h-5 w-5" />
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Teléfono / WhatsApp</p>
-                  <a href="tel:+573017998302" className="font-semibold text-foreground hover:text-primary transition">
-                    301 799 8302
+                  <a href="tel:+573203366580" className="font-semibold text-foreground hover:text-primary transition">
+                    320 336 6580
                   </a>
                 </div>
               </div>
@@ -87,7 +97,7 @@ export default function AboutSection() {
             </div>
 
             <a
-              href="https://wa.me/573017998302?text=Hola%20Sergio,%20quisiera%20agendar%20un%20servicio"
+              href="https://wa.me/573203366580?text=Hola%20Sergio,%20quisiera%20agendar%20un%20servicio"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-8 flex w-full items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3.5 font-display text-sm font-bold text-primary-foreground transition glow-neon hover:scale-105 hover:brightness-110"

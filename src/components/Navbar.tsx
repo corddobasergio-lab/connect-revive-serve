@@ -1,11 +1,13 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Gamepad2, Phone } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
+import logo from "@/assets/loto-tech-logo.png";
 
 const navLinks = [
   { label: "Inicio", href: "#inicio" },
   { label: "Servicios", href: "#servicios" },
   { label: "Nosotros", href: "#nosotros" },
+  { label: "Donaciones", href: "#donaciones" },
   { label: "Contacto", href: "#contacto" },
 ];
 
@@ -16,7 +18,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 glass">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <a href="#inicio" className="flex items-center gap-2 font-display text-lg font-bold text-primary glow-neon-text">
-          <Gamepad2 className="h-5 w-5" />
+          <img src={logo} alt="Loto Tech logo" className="h-8 w-8" />
           Loto Tech
         </a>
 
@@ -35,7 +37,7 @@ export default function Navbar() {
         </ul>
 
         <a
-          href="https://wa.me/573017998302"
+          href="https://wa.me/573203366580"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden items-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground transition glow-neon hover:brightness-110 md:inline-flex"
@@ -76,7 +78,7 @@ export default function Navbar() {
               ))}
               <li>
                 <a
-                  href="https://wa.me/573017998302"
+                  href="https://wa.me/573203366580"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-2 flex items-center justify-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground glow-neon"
