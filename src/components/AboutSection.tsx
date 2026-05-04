@@ -81,7 +81,7 @@ export default function AboutSection() {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Horario</p>
-                  <p className="font-semibold text-foreground">Lun – Sáb · 8:00 AM – 7:00 PM</p>
+                  <p className="font-semibold text-foreground">Lun – Vie · 8:00 AM – 7:00 PM</p>
                 </div>
               </div>
 
