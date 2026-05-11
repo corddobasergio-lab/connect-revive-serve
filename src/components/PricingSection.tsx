@@ -99,10 +99,10 @@ function ServiceCard({ service, index }: { service: Service; index: number }) {
       </div>
       <div className="mb-3">
         <p
-          className={`font-display text-2xl font-black glow-neon-text ${
+          className={`font-display text-2xl font-black ${
             service.price.toLowerCase() === "gratis"
-              ? "text-white drop-shadow-[0_0_12px_rgba(255,255,255,0.85)]"
-              : "text-primary"
+              ? "text-[oklch(0.70_0.25_300)] drop-shadow-[0_0_14px_oklch(0.70_0.25_300_/_85%)]"
+              : "text-primary glow-neon-text"
           }`}
         >
           {service.price}
