@@ -95,6 +95,15 @@ export default function Navbar() {
               ))}
               <li>
                 <a
+                  href="/loto-gaming-tech"
+                  onClick={() => setOpen(false)}
+                  className="mt-2 flex items-center justify-center gap-2 rounded-lg border-2 border-accent bg-accent/15 px-4 py-2 text-sm font-extrabold uppercase tracking-wider text-accent shadow-[0_0_16px_oklch(0.72_0.19_195_/_55%)]"
+                >
+                  <Gamepad2 className="h-4 w-4" /> Gaming
+                </a>
+              </li>
+              <li>
+                <a
                   href="https://wa.me/573017998302?text=Hola%20Sergio%2C%20quiero%20donar%20componentes%20electr%C3%B3nicos.%20%C2%BFC%C3%B3mo%20puedo%20hacerlo%3F"
                   target="_blank"
                   rel="noopener noreferrer"
