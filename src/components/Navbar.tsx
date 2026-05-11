@@ -82,7 +82,7 @@ export default function Navbar() {
         {/* Mobile toggle */}
         <button
           onClick={() => setOpen(!open)}
-          className="text-foreground md:hidden"
+          className="text-foreground lg:hidden"
           aria-label="Toggle menu"
         >
           {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -96,7 +96,7 @@ export default function Navbar() {
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
-            className="overflow-hidden glass md:hidden"
+            className="overflow-hidden glass lg:hidden"
           >
             <ul className="flex flex-col gap-2 px-4 py-4">
               {navLinks.map((l) => (
@@ -110,15 +110,6 @@ export default function Navbar() {
                   </a>
                 </li>
               ))}
-              <li>
-                <a
-                  href="/loto-gaming-tech"
-                  onClick={() => setOpen(false)}
-                  className="mt-2 flex items-center justify-center gap-2 rounded-lg border-2 border-accent bg-accent/15 px-4 py-2 text-sm font-extrabold uppercase tracking-wider text-accent shadow-[0_0_16px_oklch(0.72_0.19_195_/_55%)]"
-                >
-                  <Gamepad2 className="h-4 w-4" /> Gaming
-                </a>
-              </li>
               <li>
                 <a
                   href="https://wa.me/573017998302?text=Hola%20Sergio%2C%20quiero%20donar%20componentes%20electr%C3%B3nicos.%20%C2%BFC%C3%B3mo%20puedo%20hacerlo%3F"
