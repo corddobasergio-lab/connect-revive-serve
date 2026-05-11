@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Phone, Recycle } from "lucide-react";
+import { Menu, X, Phone, Recycle, Gamepad2 } from "lucide-react";
 import logo from "@/assets/loto-tech-logo.png";
 
 const navLinks = [
@@ -8,7 +8,6 @@ const navLinks = [
   { label: "Servicios", href: "#servicios" },
   { label: "Precios", href: "#precios" },
   { label: "Donaciones", href: "#donaciones" },
-  { label: "Gaming", href: "/loto-gaming-tech" },
   { label: "Nosotros", href: "#nosotros" },
   { label: "Contacto", href: "#contacto" },
 ];
@@ -39,6 +38,12 @@ export default function Navbar() {
         </ul>
 
         <div className="hidden items-center gap-3 md:flex">
+          <a
+            href="/loto-gaming-tech"
+            className="group relative inline-flex items-center gap-2 overflow-hidden rounded-lg border-2 border-accent bg-gradient-to-r from-accent/20 via-primary/20 to-accent/20 px-4 py-2 text-sm font-extrabold uppercase tracking-wider text-accent shadow-[0_0_18px_oklch(0.72_0.19_195_/_55%)] transition hover:shadow-[0_0_28px_oklch(0.72_0.19_195_/_85%)] hover:brightness-125 animate-pulse"
+          >
+            <Gamepad2 className="h-4 w-4" /> Gaming
+          </a>
           <a
             href="https://wa.me/573017998302?text=Hola%20Sergio%2C%20quiero%20donar%20componentes%20electr%C3%B3nicos.%20%C2%BFC%C3%B3mo%20puedo%20hacerlo%3F"
             target="_blank"
@@ -88,6 +93,15 @@ export default function Navbar() {
                   </a>
                 </li>
               ))}
+              <li>
+                <a
+                  href="/loto-gaming-tech"
+                  onClick={() => setOpen(false)}
+                  className="mt-2 flex items-center justify-center gap-2 rounded-lg border-2 border-accent bg-accent/15 px-4 py-2 text-sm font-extrabold uppercase tracking-wider text-accent shadow-[0_0_16px_oklch(0.72_0.19_195_/_55%)]"
+                >
+                  <Gamepad2 className="h-4 w-4" /> Gaming
+                </a>
+              </li>
               <li>
                 <a
                   href="https://wa.me/573017998302?text=Hola%20Sergio%2C%20quiero%20donar%20componentes%20electr%C3%B3nicos.%20%C2%BFC%C3%B3mo%20puedo%20hacerlo%3F"

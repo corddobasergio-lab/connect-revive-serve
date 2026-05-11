@@ -37,7 +37,7 @@ const computerServices: Service[] = [
   {
     title: "Diagnóstico de hardware",
     type: "Diagnóstico",
-    price: "$20.000 – $35.000",
+    price: "Gratis",
     unit: "por equipo",
     description:
       "Identificación de fallas en RAM, disco duro, fuente de poder, tarjeta madre u otros componentes.",
@@ -98,7 +98,13 @@ function ServiceCard({ service, index }: { service: Service; index: number }) {
         </span>
       </div>
       <div className="mb-3">
-        <p className="font-display text-2xl font-black text-primary glow-neon-text">
+        <p
+          className={`font-display text-2xl font-black glow-neon-text ${
+            service.price.toLowerCase() === "gratis"
+              ? "text-white drop-shadow-[0_0_12px_rgba(255,255,255,0.85)]"
+              : "text-primary"
+          }`}
+        >
           {service.price}
         </p>
         <p className="text-xs uppercase tracking-wide text-muted-foreground">
