@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Phone, Recycle } from "lucide-react";
+import { Menu, X, Phone, Recycle, Gamepad2 } from "lucide-react";
 import logo from "@/assets/loto-tech-logo.png";
 
 const navLinks = [
@@ -8,7 +8,6 @@ const navLinks = [
   { label: "Servicios", href: "#servicios" },
   { label: "Precios", href: "#precios" },
   { label: "Donaciones", href: "#donaciones" },
-  { label: "Gaming", href: "/loto-gaming-tech" },
   { label: "Nosotros", href: "#nosotros" },
   { label: "Contacto", href: "#contacto" },
 ];
