@@ -6,7 +6,9 @@ import logo from "@/assets/loto-tech-logo.png";
 const navLinks = [
   { label: "Inicio", href: "#inicio" },
   { label: "Servicios", href: "#servicios" },
+  { label: "Precios", href: "#precios" },
   { label: "Donaciones", href: "#donaciones" },
+  { label: "Gaming", href: "/loto-gaming-tech" },
   { label: "Nosotros", href: "#nosotros" },
   { label: "Contacto", href: "#contacto" },
 ];
