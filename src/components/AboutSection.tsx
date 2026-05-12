@@ -91,7 +91,7 @@ export default function AboutSection() {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Cobertura</p>
-                  <p className="font-semibold text-foreground">Servicio a domicilio</p>
+                  <p className="font-semibold text-foreground">Soacha</p>
                 </div>
               </div>
             </div>
