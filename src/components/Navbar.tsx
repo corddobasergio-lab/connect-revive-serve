@@ -39,7 +39,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop */}
-        <ul className="hidden gap-6 lg:flex lg:ml-4">
+        <ul className="hidden gap-6 xl:flex xl:ml-4">
           {navLinks.map((l) => (
             <li key={l.href}>
               <a
@@ -52,15 +52,7 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <div className="hidden items-center gap-3 lg:flex">
-          <a
-            href="https://wa.me/573017998302?text=Hola%20Sergio%2C%20quiero%20donar%20componentes%20electr%C3%B3nicos.%20%C2%BFC%C3%B3mo%20puedo%20hacerlo%3F"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-lg border border-accent/40 bg-accent/10 px-4 py-2 text-sm font-semibold text-accent transition hover:bg-accent/20 hover:brightness-110"
-          >
-            <Recycle className="h-4 w-4" /> Donar
-          </a>
+        <div className="hidden items-center gap-3 xl:flex">
           <a
             href="https://wa.me/573017998302?text=Hola%20Sergio%2C%20quiero%20donar%20componentes%20electr%C3%B3nicos.%20%C2%BFC%C3%B3mo%20puedo%20hacerlo%3F"
             target="_blank"
@@ -82,7 +74,7 @@ export default function Navbar() {
         {/* Mobile toggle */}
         <button
           onClick={() => setOpen(!open)}
-          className="text-foreground lg:hidden"
+          className="text-foreground xl:hidden"
           aria-label="Toggle menu"
         >
           {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -96,7 +88,7 @@ export default function Navbar() {
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
-            className="overflow-hidden glass lg:hidden"
+            className="overflow-hidden glass xl:hidden"
           >
             <ul className="flex flex-col gap-2 px-4 py-4">
               {navLinks.map((l) => (
