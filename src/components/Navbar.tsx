@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 glass">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-2 px-3 py-3 sm:px-4">
-        <div className="flex min-w-0 items-center gap-2 sm:gap-4">
+        <div className="flex min-w-0 items-center gap-3 sm:gap-6">
           <a
             href="#inicio"
             className="flex items-center gap-2 font-display text-base font-black text-primary glow-neon-text sm:text-xl sm:gap-3"
@@ -39,7 +39,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop */}
-        <ul className="hidden gap-6 lg:flex">
+        <ul className="hidden gap-6 lg:flex lg:ml-4">
           {navLinks.map((l) => (
             <li key={l.href}>
               <a
