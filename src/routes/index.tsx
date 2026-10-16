@@ -6,12 +6,17 @@ import PricingSection from "@/components/PricingSection";
 import AboutSection from "@/components/AboutSection";
 import DonationSection from "@/components/DonationSection";
 import FooterSection from "@/components/FooterSection";
+import LotoHelper from "@/components/LotoHelper";
 
 export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
       { title: "Loto Tech | Mantenimiento de Equipos y Consolas" },
+      { property: "og:title", content: "Loto Tech | Mantenimiento de Equipos y Consolas" },
+      { property: "og:description", content: "Mantenimiento y reparación de computadores y consolas en Soacha. Consulta servicios, tarifas y donaciones con Loto Tech." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary" },
       {
         name: "description",
         content:
@@ -31,6 +36,7 @@ function Index() {
       <DonationSection />
       <AboutSection />
       <FooterSection />
+      <LotoHelper />
     </div>
   );
 }

@@ -9,17 +9,17 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as LotoGamingTechRouteImport } from './routes/loto-gaming-tech'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as LotoGamingTechRouteImport } from './routes/loto-gaming-tech'
 
-const LotoGamingTechRoute = LotoGamingTechRouteImport.update({
-  id: '/loto-gaming-tech',
-  path: '/loto-gaming-tech',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LotoGamingTechRoute = LotoGamingTechRouteImport.update({
+  id: '/loto-gaming-tech',
+  path: '/loto-gaming-tech',
   getParentRoute: () => rootRouteImport,
 } as any)
 
@@ -51,18 +51,18 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/loto-gaming-tech': {
-      id: '/loto-gaming-tech'
-      path: '/loto-gaming-tech'
-      fullPath: '/loto-gaming-tech'
-      preLoaderRoute: typeof LotoGamingTechRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/': {
       id: '/'
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/loto-gaming-tech': {
+      id: '/loto-gaming-tech'
+      path: '/loto-gaming-tech'
+      fullPath: '/loto-gaming-tech'
+      preLoaderRoute: typeof LotoGamingTechRouteImport
       parentRoute: typeof rootRouteImport
     }
   }
@@ -75,3 +75,12 @@ const rootRouteChildren: RootRouteChildren = {
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
+
+import type { getRouter } from './router.tsx'
+import type { createStart } from '@tanstack/react-start'
+declare module '@tanstack/react-start' {
+  interface Register {
+    ssr: true
+    router: Awaited<ReturnType<typeof getRouter>>
+  }
+}

@@ -8,6 +8,8 @@ export const Route = createFileRoute("/loto-gaming-tech")({
   head: () => ({
     meta: [
       { title: "Loto Gaming Tech | División Gaming" },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary" },
       {
         name: "description",
         content:
