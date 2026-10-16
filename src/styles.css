@@ -78,6 +78,7 @@
   --neon-foreground: oklch(0.11 0.03 280);
   --surface: oklch(0.15 0.02 260);
   --surface-foreground: oklch(0.90 0.01 250);
+  --shadow-helper: drop-shadow(0 0 9px oklch(0.72 0.19 195 / 30%));
   --chart-1: oklch(0.72 0.19 195);
   --chart-2: oklch(0.65 0.25 160);
   --chart-3: oklch(0.60 0.20 280);
@@ -110,6 +111,9 @@
 }
 
 @layer utilities {
+  .loto-helper-image {
+    filter: var(--shadow-helper);
+  }
   .glow-neon {
     box-shadow: 0 0 15px oklch(0.70 0.22 330 / 40%), 0 0 40px oklch(0.70 0.22 330 / 15%);
   }
