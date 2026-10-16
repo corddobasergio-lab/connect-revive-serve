@@ -6,7 +6,6 @@ import PricingSection from "@/components/PricingSection";
 import AboutSection from "@/components/AboutSection";
 import DonationSection from "@/components/DonationSection";
 import FooterSection from "@/components/FooterSection";
-import LotoHelper from "@/components/LotoHelper";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -36,7 +35,6 @@ function Index() {
       <DonationSection />
       <AboutSection />
       <FooterSection />
-      <LotoHelper />
     </div>
   );
 }

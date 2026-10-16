@@ -1,2 +1,2 @@
 # Architecture
-- Keep the site's helper as a self-contained browser-side component with preset guidance and existing section/WhatsApp links; no AI or backend is needed for this navigation helper.
+- The Loti chat assistant (src/components/LotiChat.tsx) is mounted once in __root so it appears on every page; it answers via local keyword matching, no AI or backend.
